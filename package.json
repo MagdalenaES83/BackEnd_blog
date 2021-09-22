@@ -1,0 +1,35 @@
+{
+  "name": "BackEnd_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "fs-extra": "^10.0.0",
+    "multer": "^1.4.3",
+    "repository": "^0.2.0",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "dev": "nodemon -e js -r dotenv/config ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagdalenaES83/BackEnd_blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagdalenaES83/BackEnd_blog/issues"
+  },
+  "homepage": "https://github.com/MagdalenaES83/BackEnd_blog#readme"
+}
